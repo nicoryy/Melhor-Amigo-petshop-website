@@ -8,63 +8,65 @@
 
 <img src="/public/assets/image.png" alt="Exemplo imagem">
 
-> Projeto do curso de desenvolvimento feito com Next.js estilizado com TailwindCss.
+> Development course project made with Next.js styled with TailwindCss.
 
-### Ajustes e melhorias
+### Adjustments and improvements
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+The project is still under development and the next updates will focus on the following tasks:
 
-- [ ] Criação da página Produtos
-- [ ] Criação da página Galeria
-- [ ] Criação da página Contato
-- [ ] Feature de carrinho de compras
-- [ ] Temas Dark/Light
-
+- [ ] Creation of the Products page
+- [ ] Creating the Gallery page
+- [ ] Creation of the Contact page
+- [ ] Shopping cart feature
+-
+[ ] Dark/Light Themes
 ## 💻 Pré-requisitos
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+Before you begin, make sure you've met the following requirements:
 
-- Você instalou a versão mais recente de `<node / npm >`
+- You have installed the latest version of `<node/npm>`
 
-## 🚀 Instalando < Melhor Amigo - PetShop WebSite >
+## 🚀 Installing < Melhor Amigo - PetShop WebSite >
 
-Para instalar o < Melhor Amigo - PetShop WebSite >, siga estas etapas:
+To install < Melhor Amigo - PetShop WebSite >, follow these steps:
 
 ```
 git clone https://github.com/nicoryy/Melhor-Amigo-petshop-website
 
-cd Melhor-Amigo-petshop-website
+cd Best-Friend-petshop-
+Web site
 
 npm i
 
 ```
 
-## ☕ Usando < Melhor Amigo - PetShop WebSite >
+## ☕ Using < Melhor Amigo - PetShop WebSite >
 
-Para usar < Melhor Amigo - PetShop WebSite >, siga estas etapas:
+To use <Melhor Amigo - PetShop WebSite>, follow these steps:
 
 ```
 npm run dev
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+Add execution commands and examples that you think users will find useful. Provides a reference of options for bonus points!
 
-## 📫 Contribuindo para < Melhor Amigo - PetShop WebSite >
+## 📫 Contributing to < Melhor Amigo - PetShop WebSite >
 
-Para contribuir com < Melhor Amigo - PetShop WebSite >, siga estas etapas:
+To contribute to < Melhor Amigo - PetShop WebSite >, follow these steps:
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin < Melhor Amigo - PetShop WebSite > / <local>`
-5. Crie a solicitação de pull.
+1. Fork this repository.
+2. Create a branch: `git checkout -
+b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<mensagem_commit>'`
+4. Push to the original branch: `git push origin <Melhor Amigo - PetShop WebSite>/<location>`
+5. Create the pull request.
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.
+com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
+## 🤝 Collaborators
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
+We thank the following people who contributed to this project:
 <table>
   <tr>
     <td align="center">
