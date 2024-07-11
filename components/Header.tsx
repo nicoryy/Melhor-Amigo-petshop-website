@@ -10,7 +10,7 @@ const oswald = Oswald({ subsets: ["latin"] });
 
 const Header = () => {
   return (
-    <header className="overflow-hidden border-b-2 border-pp_black w-full">
+    <header data-aos='fade-down' className="overflow-hidden border-b-2 border-pp_black w-full">
       <section className="text-sm flex justify-between text-white bg-pp_black px-10 py-2 items-center">
         <ul className="flex gap-6">
           <li className="list-disc">Call: +1 487 888 937</li>

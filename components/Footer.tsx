@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="grid grid-cols-3 gap-3">
           {servicos.map((item) => {
             return (
-              <div className="relative w-32 h-32">
+              <div key={item.id} className="relative w-32 h-32">
                 <Image
                   key={item.id}
                   fill

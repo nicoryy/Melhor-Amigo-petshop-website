@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Scollop from "@/components/Scollop";
 import Footer from "@/components/Footer";
+import ClientLayout from "@/components/ClientLayout";
 
 const mont = Montserrat({
   subsets: ["latin"],
@@ -38,7 +39,7 @@ export default function RootLayout({
       >
         <Scollop />
         <Header />
-        <main>{children}</main>
+        <ClientLayout>{children}</ClientLayout>
         <Footer />
       </body>
     </html>

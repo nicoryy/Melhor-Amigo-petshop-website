@@ -4,10 +4,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="px-20">
+    <section className="px-20 overflow-x-hidden">
       {/* First Section */}
       <section className="grid grid-cols-2 place-items-center min-h-screen -mx-20">
-        <div className="w-full h-full flex flex-col justify-center items-start gap-5 p-40">
+        <div
+          data-aos="fade-right"
+          className="w-full h-full flex flex-col justify-center items-start gap-5 p-40"
+        >
           <p className="text-5xl font-bold">
             Melhor Amigo - O melhor para o seu Pet!
           </p>
@@ -24,7 +27,7 @@ export default function Home() {
           <Button href={"/shop"}>Compre agora</Button>
         </div>
 
-        <div className="w-full h-full relative">
+        <div data-aos="fade-left" className="w-full h-full relative">
           <Image
             className="object-cover rounded-lg shadow-lg shadow-neutral-400"
             quality={100}
@@ -40,10 +43,16 @@ export default function Home() {
 
       {/* Second Section */}
       <section className="py-40 flex items-center justify-center flex-col gap-10 relative -mx-20 my-10">
-        <p className="absolute text-8xl text-gray-500 font-bold top-10 left-0 -z-10 opacity-50 font-petrona">
+        <p
+          data-aos="fade-right"
+          className="absolute text-8xl text-gray-500 font-bold top-10 left-0 -z-10 opacity-50 font-petrona"
+        >
           Nutrição saudável
         </p>
-        <p className="absolute text-8xl text-gray-500 font-bold bottom-10 right-0 -z-10 opacity-50 font-petrona">
+        <p
+          data-aos="fade-left"
+          className="absolute text-8xl text-gray-500 font-bold bottom-10 right-0 -z-10 opacity-50 font-petrona"
+        >
           Excelência em cuidados
         </p>
 
@@ -57,7 +66,7 @@ export default function Home() {
 
       {/* Third Section */}
       <section className="py-20 flex items-center justify-center flex-col gap-10 text-center">
-        <span>
+        <span data-aos="fade-up">
           <p className="text-pp_avocado font-semibold">Descubra a excelência</p>
 
           <p className="text-4xl font-bold break-words ">
@@ -65,7 +74,7 @@ export default function Home() {
           </p>
         </span>
 
-        <p className="text-lg px-40">
+        <p data-aos="fade-up" className="text-lg px-40">
           Dê uma olhada em nossa seleção de produtos premium para animais de
           estimação, projetados para manter seu amigo peludo feliz e saudável.
           Desde rações premium até materiais de higiene e brinquedos, temos tudo
@@ -73,10 +82,14 @@ export default function Home() {
         </p>
 
         {/* product section */}
-        <section className="grid gap-5 grid-cols-4 my-10">
+        <section data-aos="fade-up" className="grid gap-5 grid-cols-4 my-10">
           {servicos.map((item) => {
             return (
-              <div className="flex flex-col gap-3 text-center" key={item.id}>
+              <div
+                data-aos="fade-up"
+                className="flex flex-col gap-3 text-center"
+                key={item.id}
+              >
                 <div className="w-80 h-80 relative">
                   <Image
                     className="object-cover rounded-lg shadow-lg shadow-neutral-400"
@@ -112,6 +125,7 @@ export default function Home() {
                 key={item.id}
                 className="my-10 grid justify-between grid-cols-2 gap-20"
                 dir={item.id % 2 === 0 ? "" : "rtl"}
+                data-aos={item.id % 2 === 0 ? "fade-left" : "fade-right"}
               >
                 <div
                   className={`${
@@ -148,7 +162,10 @@ export default function Home() {
       </section>
 
       {/* Fifth Section */}
-      <section className="bg-neutral-950 bg-opacity-70 -mx-20 relative px-52 text-white py-20 flex flex-col gap-5 items-start mt-10">
+      <section
+        data-aos="fade"
+        className="bg-neutral-950 bg-opacity-70 -mx-20 relative px-52 text-white py-20 flex flex-col gap-5 items-start mt-10"
+      >
         <Image
           className="object-cover -z-10"
           src={"/assets/melhor.jpg"}
@@ -159,7 +176,9 @@ export default function Home() {
           fill
         />
 
-        <p className="text-4xl font-medium">Brinquedos e acessórios para animais de estimação</p>
+        <p className="text-4xl font-medium">
+          Brinquedos e acessórios para animais de estimação
+        </p>
         <p className="text-lg">
           Nossa seleção de brinquedos e acessórios para animais de estimação foi
           projetada para mantê-lo entretido e feliz. De brinquedos interativos a
