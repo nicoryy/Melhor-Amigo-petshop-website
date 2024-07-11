@@ -18,9 +18,8 @@ The project is still under development and the next updates will focus on the fo
 - [ ] Creating the Gallery page
 - [ ] Creation of the Contact page
 - [ ] Shopping cart feature
--
-[ ] Dark/Light Themes
-## 💻 Pré-requisitos
+- [ ] Dark/Light Themes
+## 💻 Prerequisites
 
 Before you begin, make sure you've met the following requirements:
 
@@ -33,8 +32,7 @@ To install < Melhor Amigo - PetShop WebSite >, follow these steps:
 ```
 git clone https://github.com/nicoryy/Melhor-Amigo-petshop-website
 
-cd Best-Friend-petshop-
-Web site
+cd Melhor-Amigo-petshop-website
 
 npm i
 
@@ -71,7 +69,7 @@ We thank the following people who contributed to this project:
   <tr>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/96792563" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/96792563" width="100px;" alt="Foto do Pedro Nicory no GitHub"/><br>
         <sub>
           <b>Pedro Nicory</b>
         </sub>
