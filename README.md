@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/nicoryy/Melhor-Amigo-petshop-website?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/nicoryy/Melhor-Amigo-petshop-website?style=for-the-badge)
 
-<img src="/assets/imagem.png" alt="Exemplo imagem">
+<img src="/public/assets/image.png" alt="Exemplo imagem">
 
 > Projeto do curso de desenvolvimento feito com Next.js estilizado com TailwindCss.
 
@@ -77,11 +77,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
   </tr>
 </table>
-
-## 😄 Seja um dos contribuidores
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
