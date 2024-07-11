@@ -8,11 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        pp_black: "#0f0f0f",
+        pp_avocado: "#5a8802",
+        pp_avocado_500: "#365201",
+        pp_avocado_100: "#cbfd6c",
+        pp_white: "#f4f4f4",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily:{
+        mont:['var(--font-montserrat)'],
+        petrona:['var(--font-petrona)'],
+        oswald:['var(--font-oswald)']
+      }
     },
   },
   plugins: [],
