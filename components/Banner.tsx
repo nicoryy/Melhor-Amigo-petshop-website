@@ -1,14 +1,16 @@
 import Image from "next/image";
-import React, { ReactNode } from "react";
-
 interface BannerType {
   url: string;
-  children: ReactNode;
+  page: string;
+  title: string;
 }
 
-const Banner = ({ url, children }: BannerType) => {
+const Banner = ({ url, page, title }: BannerType) => {
   return (
-    <div data-aos='fade-down' className="h-64 relative bg-neutral-800 bg-opacity-70 flex flex-col justify-center items-center gap-10 text-white -mx-20">
+    <div
+      data-aos="fade-down"
+      className="h-64 relative bg-neutral-800 bg-opacity-70 flex flex-col justify-center items-center gap-10 text-white -mx-20"
+    >
       <Image
         src={`${url}`}
         className="object-cover overflow-hidden -z-10"
@@ -20,7 +22,9 @@ const Banner = ({ url, children }: BannerType) => {
         loading="lazy"
       />
 
-      {children}
+      <p className="text-xl font-semibold uppercase">{page}</p>
+
+      <p className="text-4xl font-bold">{title}</p>
     </div>
   );
 };
