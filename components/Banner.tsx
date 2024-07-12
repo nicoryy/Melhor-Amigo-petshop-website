@@ -8,7 +8,7 @@ interface BannerType {
 
 const Banner = ({ url, children }: BannerType) => {
   return (
-    <div className="h-64 relative bg-neutral-800 bg-opacity-70 flex flex-col justify-center items-center gap-10 text-white -mx-20">
+    <div data-aos='fade-down' className="h-64 relative bg-neutral-800 bg-opacity-70 flex flex-col justify-center items-center gap-10 text-white -mx-20">
       <Image
         src={`${url}`}
         className="object-cover overflow-hidden -z-10"
