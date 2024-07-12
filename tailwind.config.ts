@@ -12,7 +12,7 @@ const config: Config = {
         pp_black: "#0f0f0f",
         pp_avocado: "#5a8802",
         pp_avocado_500: "#365201",
-        pp_avocado_100: "#cbfd6c",
+        pp_avocado_100: "#028849",
         pp_white: "#f4f4f4",
       },
       backgroundImage: {
