@@ -13,17 +13,16 @@ const page = () => {
 
   return (
     <section className="mx-20">
-      <Banner url="/assets/pet-shop-um-negocio-de-sucesso.jpg">
-        <p className="text-xl font-semibold uppercase">pet shop</p>
-
-        <p className="text-4xl font-bold">Nossa Loja</p>
-      </Banner>
+      <Banner url="/assets/pet-shop-um-negocio-de-sucesso.jpg" title="Nossa Loja" page="pet shop"/>
 
       <section className="flex flex-col justify-center items-center my-10 transition">
-        <p data-aos='fade-right' className="font-medium uppercase text-pp_avocado_500 text-sm mb-2">
+        <p
+          data-aos="fade-right"
+          className="font-medium uppercase text-pp_avocado_500 text-sm mb-2"
+        >
           produtos
         </p>
-        <div data-aos='fade-left' className="text-center">
+        <div data-aos="fade-left" className="text-center">
           <ul className="grid grid-cols-4 py-1 text-lg bg-neutral-200 rounded-lg">
             <li
               className={`px-10 cursor-pointer${
@@ -71,7 +70,7 @@ const page = () => {
           </ul>
         </div>
 
-        <div data-aos='fade-up' className="grid grid-cols-3 gap-10 my-10">
+        <div data-aos="fade-up" className="grid grid-cols-3 gap-10 my-10">
           {servicos.map((item) => {
             if (categoria === "all") {
               return (
