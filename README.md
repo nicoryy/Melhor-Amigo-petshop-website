@@ -14,7 +14,7 @@
 
 The project is still under development and the next updates will focus on the following tasks:
 
-- [ ] Creation of the Products page
+- [x] Creation of the Products page
 - [ ] Creating the Gallery page
 - [ ] Creation of the Contact page
 - [ ] Shopping cart feature
