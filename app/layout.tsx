@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`selection:bg-pp_avocado_500 selection:text-pp_white ${mont.className} ${mont.variable} ${oswald.variable} ${petrona.variable} `}
+        className={`selection:bg-pp_avocado_500 selection:text-pp_white bg-pp_white ${mont.className} ${mont.variable} ${oswald.variable} ${petrona.variable} `}
       >
         <Scollop />
         <Header />
