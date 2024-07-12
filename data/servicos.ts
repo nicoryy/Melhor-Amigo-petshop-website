@@ -13,7 +13,8 @@ export const servicos = [
     img: racao,
     price: 59.99,
     promo: 49.99,
-    categoria:'prod'
+    categoria:'prod',
+    subcategoria:'racao'
   },
   {
     id: 2,
@@ -22,7 +23,8 @@ export const servicos = [
     img: tosa,
     price: 79.99,
     promo: 69.99,
-    categoria:'serv'
+    categoria:'serv',
+    subcategoria:'tosa'
   },
   {
     id: 3,
@@ -31,7 +33,8 @@ export const servicos = [
     img: banho1,
     price: 49.99,
     promo: 39.99,
-    categoria:'serv'
+    categoria:'serv',
+    subcategoria:'limpeza'
   },
   {
     id: 4,
@@ -40,7 +43,8 @@ export const servicos = [
     img: brinquedo,
     price: 29.99,
     promo: 24.99,
-    categoria:'prod'
+    categoria:'prod',
+    subcategoria:'limpeza'
   },
   {
     id: 5,
@@ -49,6 +53,7 @@ export const servicos = [
     img: produtos,
     price: 39.99,
     promo: 34.99,
-    categoria:'prod'
+    categoria:'prod',
+    subcategoria:'limpeza'
   },
 ];
