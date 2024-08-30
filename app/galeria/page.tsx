@@ -3,7 +3,7 @@
 import Banner from "@/components/Banner";
 import { images } from "@/data/images";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 
 const page = () => {
   return (
@@ -22,7 +22,7 @@ const page = () => {
           produtos
         </p>
 
-        <div data-aos="fade-up" className="grid grid-cols-6 gap-5">
+        <div data-aos="fade-up" className="grid gap-5">
           {images.map((item) => {
             return (
               <div
