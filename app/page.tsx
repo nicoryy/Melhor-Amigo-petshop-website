@@ -4,12 +4,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="px-20 overflow-x-hidden">
+    <section className="lg:px-20 px-5 overflow-x-hidden">
       {/* First Section */}
-      <section className="grid grid-cols-2 place-items-center min-h-screen -mx-20">
+      <section className="grid lg:grid-cols-2 text-center lg:text-start place-items-center min-h-screen -mx-20">
         <div
           data-aos="fade-right"
-          className="w-full h-full flex flex-col justify-center items-start gap-5 p-40"
+          className="w-full h-full flex flex-col justify-center lg:items-start gap-5 lg:p-40 p-20 items-center"
         >
           <p className="text-5xl font-bold">
             Melhor Amigo - O melhor para o seu Pet!
@@ -27,7 +27,10 @@ export default function Home() {
           <Button href={"/shop"}>Compre agora</Button>
         </div>
 
-        <div data-aos="fade-left" className="w-full h-full relative">
+        <div
+          data-aos="fade-left"
+          className="w-full h-full relative hidden lg:block"
+        >
           <Image
             className="object-cover rounded-lg shadow-lg shadow-neutral-400"
             quality={100}
@@ -45,18 +48,18 @@ export default function Home() {
       <section className="py-40 flex items-center justify-center flex-col gap-10 relative -mx-20 my-10">
         <p
           data-aos="fade-right"
-          className="absolute text-8xl text-gray-500 font-bold top-10 left-0 -z-10 opacity-50 font-petrona"
+          className="absolute text-4xl lg:text-8xl text-gray-500 font-bold top-12 left-0 -z-10 opacity-50 font-petrona"
         >
           Nutrição saudável
         </p>
         <p
           data-aos="fade-left"
-          className="absolute text-8xl text-gray-500 font-bold bottom-10 right-0 -z-10 opacity-50 font-petrona"
+          className="absolute text-4xl lg:text-8xl text-gray-500 font-bold bottom-12 right-0 -z-10 opacity-50 font-petrona"
         >
           Excelência em cuidados
         </p>
 
-        <p className="text-4xl font-bold text-center w-[55rem]">
+        <p className="lg:text-4xl text-2xl font-bold text-center w-[20rem] lg:w-[55rem]">
           Explore nossa ampla gama de produtos e serviços para animais de
           estimação e dê ao seu animal o cuidado que ele merece.
         </p>
@@ -74,7 +77,7 @@ export default function Home() {
           </p>
         </span>
 
-        <p data-aos="fade-up" className="text-lg px-40">
+        <p data-aos="fade-up" className="text-lg lg:px-40 px-10">
           Dê uma olhada em nossa seleção de produtos premium para animais de
           estimação, projetados para manter seu amigo peludo feliz e saudável.
           Desde rações premium até materiais de higiene e brinquedos, temos tudo
@@ -82,7 +85,7 @@ export default function Home() {
         </p>
 
         {/* product section */}
-        <section data-aos="fade-up" className="grid gap-5 grid-cols-4 my-10">
+        <section data-aos="fade-up" className="grid gap-5 lg:grid-cols-4 my-10">
           {servicos.map((item) => {
             return (
               <div
@@ -123,13 +126,13 @@ export default function Home() {
             return (
               <div
                 key={item.id}
-                className="my-10 grid justify-between grid-cols-2 gap-20"
+                className="my-10 grid justify-between lg:grid-cols-2 gap-20"
                 dir={item.id % 2 === 0 ? "" : "rtl"}
                 data-aos={item.id % 2 === 0 ? "fade-left" : "fade-right"}
               >
                 <div
                   className={`${
-                    item.id % 2 === 0 ? "text-left pr-60" : "text-right pl-60"
+                    item.id % 2 === 0 ? "text-left lg:pr-60" : "text-right lg:pl-60"
                   } flex flex-col gap-5 justify-center items-start`}
                 >
                   <p className="text-pp_avocado_500 text-2xl font-bold">
@@ -147,7 +150,7 @@ export default function Home() {
                   <Button href="/shop/item">Adicionar ao Carrinho</Button>
                 </div>
 
-                <div className="relative w-[50rem] h-[35rem]">
+                <div className="relative lg:w-[50rem] lg:h-[35rem] w-96 h-96">
                   <Image
                     className="object-cover rounded-xl"
                     key={item.id}
@@ -168,7 +171,7 @@ export default function Home() {
       {/* Fifth Section */}
       <section
         data-aos="fade"
-        className="bg-neutral-950 bg-opacity-70 -mx-20 relative px-52 text-white py-20 flex flex-col gap-5 items-start mt-10"
+        className="bg-neutral-950 bg-opacity-70 -mx-20 relative lg:px-52 px-20 text-white py-20 flex flex-col gap-5 text-center lg:items-start items-center mt-10"
       >
         <Image
           className="object-cover -z-10"
